@@ -8,7 +8,7 @@ fn main() {
     // println!("{}",x);
     // println!("{}",y);
     // println!("{}",z);
-    let mut x :i8 = 5;
+    // let mut x :i8 = 5;
 
     // for i : i32 in 0..1000 {
     //     x= x+10;
@@ -16,8 +16,8 @@ fn main() {
     // for i: i32 in 0..1000{
     //     x=x+10;
     // }
-    for _i in 0..1000{
-        x=x+100;
-    }
-    print!("{}",x)
+    // for _i in 0..1000{
+    //     x=x+100;
+    // }
+    // print!("{}",x)
 }
