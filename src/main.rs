@@ -34,6 +34,12 @@ fn main() {
     // if is_male && is_above_18 {
     //     print!("It is a real male ")
     // }
-    let greeting =String::from ("hello ho");
-    println!("greeting is {}",greeting)
+    let greeting =String::from ("hello World");
+    println!(" {}",greeting);
+    let char1 =greeting.chars().nth(1);
+    match char1 {
+        Some(c)=>println!("{}",c),
+        None=>println!("No character at 1000th")
+    }
+    // print!("{}",greeting.chars().nth(10));
 }
