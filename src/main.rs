@@ -21,17 +21,19 @@ fn main() {
     // }
     // print!("{}",x)
 
-    let is_male:bool=false;
+    // let is_male:bool=false;
 
-    let is_above_18:bool = true;
-    if is_male{
-        println!("Yes it a male")
+    // let is_above_18:bool = true;
+    // if is_male{
+    //     println!("Yes it a male")
 
-    }
-    else {
-        print!("It is not a male ")
-    }
-    if is_male && is_above_18 {
-        print!("It is a real male ")
-    }
+    // }
+    // else {
+    //     print!("It is not a male ")
+    // }
+    // if is_male && is_above_18 {
+    //     print!("It is a real male ")
+    // }
+    let greeting =String::from ("hello ho");
+    println!("greeting is {}",greeting)
 }
