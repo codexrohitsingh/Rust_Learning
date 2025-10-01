@@ -84,10 +84,33 @@
 // }
 
 // }
-fn main (){
-println!("{}",do_sum(14,23 ));
+// fn main (){
+// println!("{}",do_sum(14,23 ));
 
+// }
+// fn do_sum(a:i32,b:i32)->i32 {
+//     return a+b;
+// }
+
+fn main(){
+    setup_stack();
+    setup_heap();
+    upgrade_string();
 }
-fn do_sum(a:i32,b:i32)->i32 {
-    return a+b;
+fn setup_stack(){
+    let a :u8=5;
+    let b :u8=10;
+     let c=a+b;
+    println!("The sum of a: {} and b: {} is {}",a,b,c);
+}
+fn setup_heap(){
+    let s1=String::from("This is sentence one");
+    let s2=String::from("this is sentence two");
+    let combined = format!("{},{}",s1,s2);
+    println!("{}",combined);
+}
+fn upgrade_string(){
+    let mut s1 =String::from("This is the second sentence");
+    s1.push_str(" This is the upgrade");
+    print!("{s1}")
 }
