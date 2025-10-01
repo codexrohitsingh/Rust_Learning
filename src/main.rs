@@ -71,16 +71,23 @@
 // }
 
 // Find the first word of the sentence and the sentence is -> THis is a sentence
-fn main(){
-let sentence = String::from("THis is a sentence");
+// fn main(){
+// let sentence = String::from("THis is a sentence");
 
-    for i in sentence.chars(){
-    print!("{}",i);
-    if i==' '{
-        break;
-    }
+//     for i in sentence.chars(){
+//     print!("{}",i);
+//     if i==' '{
+//         break;
+//     }
 
+
+// }
+
+// }
+fn main (){
+println!("{}",do_sum(14,23 ));
 
 }
-
+fn do_sum(a:i32,b:i32)->i32 {
+    return a+b;
 }
