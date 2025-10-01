@@ -111,6 +111,9 @@ fn setup_heap(){
 }
 fn upgrade_string(){
     let mut s1 =String::from("This is the second sentence");
+    println!("This is before the update{s1} ");
     s1.push_str(" This is the upgrade");
-    print!("{s1}")
+
+    print!("{s1}");
+
 }
