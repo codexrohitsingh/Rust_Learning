@@ -1,4 +1,4 @@
-fn main() {
+// fn main() {
     // println!("Hello, this is my first rust project ");
     // let x :i8= 5; //i means signed and it can both postive and negative 
     // let y :u8 =10;  //unsigned mean you can only use positive 
@@ -55,17 +55,32 @@ fn main() {
     // for i in 0..10{
     //     println!("{}",i)
     // }
-    let first_sentence = String::from("This is a sentence ");
-    let find_first_word=get_first_word(first_sentence);
-    fn get_first_word(first_sentence: String)->String{
-        let mut word = String::from("");
-        for char in first_sentence.chars(){
-            word.push_str(char.to_string().as_str());
-            if char== ' '{
-                break;
-        }
+//     let first_sentence = String::from("This is a sentence ");
+//     let find_first_word=get_first_word(first_sentence);
+//     fn get_first_word(first_sentence: String)->String{
+//         let mut word = String::from("");
+//         for char in first_sentence.chars(){
+//             word.push_str(char.to_string().as_str());
+//             if char== ' '{
+//                 break;
+//         }
+//     }
+//     return word;
+// }
+// println!("{}",find_first_word)
+// }
+
+// Find the first word of the sentence and the sentence is -> THis is a sentence
+fn main(){
+let sentence = String::from("THis is a sentence");
+
+    for i in sentence.chars(){
+    print!("{}",i);
+    if i==' '{
+        break;
     }
-    return word;
+
+
 }
-println!("{}",find_first_word)
+
 }
