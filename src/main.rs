@@ -61,7 +61,7 @@ fn main() {
         let mut word = String::from("");
         for char in first_sentence.chars(){
             word.push_str(char.to_string().as_str());
-            if word==" "{
+            if char== ' '{
                 break;
         }
     }
