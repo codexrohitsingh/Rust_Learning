@@ -239,16 +239,16 @@
 // }
 
 
-struct User{
-    name:String,
-    age:u32,
+// struct User{
+//     name:String,
+//     age:u32,
 
-}
-fn main(){
-    let user =User{
-        name:String::from("Rohit"),
-        age:12
-    };
+// }
+// fn main(){
+//     let user =User{
+//         name:String::from("Rohit"),
+//         age:12
+//     };
 
-    println!("My name is {} and my age is {}",user.name,user.age)
-}
+//     println!("My name is {} and my age is {}",user.name,user.age)
+// }
