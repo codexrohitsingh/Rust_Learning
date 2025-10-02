@@ -237,3 +237,18 @@
 //     println!("{}",s2);
 //     println!("{}",s3)
 // }
+
+
+struct User{
+    name:String,
+    age:u32,
+
+}
+fn main(){
+    let user =User{
+        name:String::from("Rohit"),
+        age:12
+    };
+
+    println!("My name is {} and my age is {}",user.name,user.age)
+}
