@@ -200,3 +200,13 @@
 //     println!("{}",s1);
 // }
 
+fn main(){
+    let s1 = String::from("this is the sentence one ");
+
+     using_function(&s1);
+     println!("{}",s1);
+}
+fn using_function(s1:&String)->&String{
+    println!("{}",s1);
+    return s1;
+}
