@@ -252,3 +252,22 @@
 
 //     println!("My name is {} and my age is {}",user.name,user.age)
 // }
+
+struct Rect {
+     width:u32,
+     height:u32,
+}
+
+impl Rect {
+    fn area(&self)->u32{
+        return self.width*self.height;
+    }
+}
+fn main(){
+    let a = Rect{
+        width:32,
+        height:34,
+    };
+    print!("{}",a.area())
+
+}
