@@ -138,3 +138,8 @@
 // }
 // return st;
 // }
+
+// Write a program to find the reverse of a number 123; 
+fn main (){
+     
+}
