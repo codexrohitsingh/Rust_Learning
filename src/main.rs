@@ -153,3 +153,5 @@
 fn main(){
     print!("{}",10/2);
 }
+// Make a function to do the same above division
+
