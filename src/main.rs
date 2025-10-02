@@ -206,7 +206,7 @@ fn main(){
      using_function(&s1);
      println!("{}",s1);
 }
-fn using_function(s1:&String)->&String{
+fn using_function(s1:&String){
     println!("{}",s1);
-    return s1;
+
 }
