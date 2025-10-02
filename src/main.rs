@@ -193,4 +193,9 @@
 //     return my_new_string;
 // }
 
-
+fn main(){
+    let s1 = String::from("this is the sentence one ");
+    let s2 = &s1;
+    println!("{}",s2);
+    println!("{}",s1);
+}
