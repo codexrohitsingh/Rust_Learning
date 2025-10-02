@@ -215,8 +215,8 @@
 //     s1.push_str("World");
 //     println!("{}",s1);
 // }
-fn main(){
-    let s1 = String::from("Hello");
-    print!("{}",format!("{}{}",s1,"World"));
-    println!("{}{}","hello","World")
-}
+// fn main(){
+//     let s1 = String::from("Hello");
+//     print!("{}",format!("{}{}",s1,"World"));
+//     println!("{}{}","hello","World")
+// }
