@@ -183,13 +183,14 @@
 //     return my_new_string;
 // }
 
-fn main(){
-    let my_string = String::from("this is the string");
-    let my_string_3=new_string(my_string);
-    println!("{}",my_string_3)
-}
-fn new_string(my_new_string:String)->String{
-    println!("{}",my_new_string);
-    return my_new_string;
-}
+// fn main(){
+//     let my_string = String::from("this is the string");
+//     let my_string_3=new_string(my_string);
+//     println!("{}",my_string_3)
+// }
+// fn new_string(my_new_string:String)->String{
+//     println!("{}",my_new_string);
+//     return my_new_string;
+// }
+
 
