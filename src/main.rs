@@ -163,3 +163,12 @@
 //     println!("{}",s3);
 //     print!("{}",s4);
 // }
+
+fn main(){
+    let my_string = String::from("this is the string");
+    new_string(my_string.clone());
+    println!("{}",my_string)
+}
+fn new_string(my_new_string:String){
+    println!("{}",my_new_string)
+}
