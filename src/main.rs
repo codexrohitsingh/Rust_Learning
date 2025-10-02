@@ -151,5 +151,5 @@
 // }
 // Write a program to divide 2 numbers 
 fn main(){
-    print!("{}",10/2)
+    print!("{}",10/2);
 }
