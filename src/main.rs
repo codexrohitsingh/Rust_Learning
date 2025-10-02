@@ -141,9 +141,11 @@
 
 // Write a program to find the reverse of a number 123; 
 fn main (){
-     find_reverse();
+    let a = 10;
+    find_reverse(a);
 }
 
-fn find_reverse(){
+fn find_reverse(a:f32){
+    println!("{}",a%10);
     
 }
