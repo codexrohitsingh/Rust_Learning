@@ -270,4 +270,13 @@
 //     };
 //     print!("{}",a.area())
 
+// // }
+// enum Direction {
+//     North,
+//     South,
+// }
+
+// fn main(){
+//     let a= Direction::North;
+//     print!("{:?}",a)
 // }
