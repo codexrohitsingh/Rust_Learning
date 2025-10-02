@@ -149,3 +149,7 @@
 //     println!("{}",a%10);
     
 // }
+// Write a program to divide 2 numbers 
+fn main(){
+    
+}
