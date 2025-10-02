@@ -92,28 +92,30 @@
 //     return a+b;
 // }
 
-fn main(){
-    setup_stack();
-    setup_heap();
-    upgrade_string();
-}
-fn setup_stack(){
-    let a :u8=5;
-    let b :u8=10;
-     let c=a+b;
-    println!("The sum of a: {} and b: {} is {}",a,b,c);
-}
-fn setup_heap(){
-    let s1=String::from("This is sentence one");
-    let s2=String::from("this is sentence two");
-    let combined = format!("{},{}",s1,s2);
-    println!("{}",combined);
-}
-fn upgrade_string(){
-    let mut s1 =String::from("This is the second sentence");
-    println!("This is before the update{s1} ");
-    s1.push_str(" This is the upgrade");
+// fn main(){
+//     setup_stack();
+//     setup_heap();
+//     upgrade_string();
+// }
+// fn setup_stack(){
+//     let a :u8=5;
+//     let b :u8=10;
+//      let c=a+b;
+//     println!("The sum of a: {} and b: {} is {}",a,b,c);
+// }
+// fn setup_heap(){
+//     let s1=String::from("This is sentence one");
+//     let s2=String::from("this is sentence two");
+//     let combined = format!("{},{}",s1,s2);
+//     println!("{}",combined);
+// }
+// fn upgrade_string(){
+//     let mut s1 =String::from("This is the second sentence");
+//     println!("Capacity :{}, length: {}, pointer: {:p}",s1.capacity(),s1.len(),s1.as_ptr());
+//     println!("This is before the update ");
+//     s1.push_str(" This is the upgrade");
+//     println!("Capacity :{}, length: {}, pointer: {:p}",s1.capacity(),s1.len(),s1.as_ptr());
 
-    print!("{s1}");
+//     print!("{s1}");
 
-}
+// }
