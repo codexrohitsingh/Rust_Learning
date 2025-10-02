@@ -159,5 +159,7 @@ fn main(){
     let s1 = String::from("this is the s1");
     let s2 =s1;
     let s3 = s2;
+    let s4=s1;
     println!("{}",s3);
+    print!("{}",s4);
 }
