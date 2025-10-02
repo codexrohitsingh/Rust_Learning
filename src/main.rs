@@ -122,19 +122,19 @@
 
 
 // Write a basic program in rust to get the length of 2 first word of a string 
-fn main(){
-    let a =String::from("this is the string from the sentence");
-print!("{}",get_length(a));
-}
+// fn main(){
+//     let a =String::from("this is the string from the sentence");
+// print!("{}",get_length(a));
+// }
 
-fn get_length(a:String)->String{
-    let mut st=String::from(" ");
-    for i in a.chars(){
-        st.push_str(i.to_string().as_str());
-        if i==' '{
-            break;
-    }
+// fn get_length(a:String)->String{
+//     let mut st=String::from(" ");
+//     for i in a.chars(){
+//         st.push_str(i.to_string().as_str());
+//         if i==' '{
+//             break;
+//     }
 
-}
-return st;
-}
+// }
+// return st;
+// }
