@@ -220,3 +220,12 @@
 //     print!("{}",format!("{}{}",s1,"World"));
 //     println!("{}{}","hello","World")
 // }
+fn main(){
+    let mut s1=String::from("Hello");
+    println!("This is before the hanky panky {}",s1);
+    update_string(&mut s1);
+    println!("This is after the hanky panky {}",s1)
+}
+fn update_string(s1:&mut String){
+    s1.push_str("World");
+}
