@@ -200,13 +200,18 @@
 //     println!("{}",s1);
 // }
 
+// fn main(){
+//     let s1 = String::from("this is the sentence one ");
+
+//      using_function(&s1);
+//      println!("{}",s1);
+// }
+// fn using_function(s1:&String){
+//     println!("{}",s1);
+
+// }
 fn main(){
-    let s1 = String::from("this is the sentence one ");
-
-     using_function(&s1);
-     println!("{}",s1);
-}
-fn using_function(s1:&String){
+    let mut s1 =String::from("Hello");
+    s1.push_str("World");
     println!("{}",s1);
-
 }
