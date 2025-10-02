@@ -172,3 +172,13 @@
 // fn new_string(my_new_string:String){
 //     println!("{}",my_new_string)
 // }
+
+fn main(){
+    let mut my_string = String::from("this is the string");
+    my_string=new_string(my_string);
+    println!("{}",my_string)
+}
+fn new_string(my_new_string:String)->String{
+    println!("{}",my_new_string);
+    return my_new_string;
+}
