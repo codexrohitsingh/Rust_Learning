@@ -150,8 +150,8 @@
     
 // }
 // Write a program to divide 2 numbers 
-fn main(){
-    print!("{}",10/2);
-}
+// fn main(){
+//     print!("{}",10/2);
+// }
 // Make a function to do the same above division
 
