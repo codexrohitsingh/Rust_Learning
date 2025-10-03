@@ -280,3 +280,8 @@
 //     let a= Direction::North;
 //     print!("{:?}",a)
 // }
+
+
+fn main(){
+    println!("this is the sentence ")
+}
