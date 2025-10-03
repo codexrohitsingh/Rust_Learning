@@ -175,12 +175,12 @@
 //     println!("{}",my_new_string)
 // }
 
-fn main(){
-    let s1 =String::from("this is the current sentence");
-    let s2 = &s1; 
-    println!("{}",s1);
-    println!("{}",s2);
-}
+// fn main(){
+//     let mut s1 =String::from("this is the current sentence");
+//     let s2 = &mut s1; 
+//     // println!("{}",s1);
+//     println!("{}",s2);
+// }
 
 
 // fn main(){
@@ -243,9 +243,10 @@ fn main(){
 // fn main(){
 //     let mut s1 = String::from("Hello");
 //     let s2 = &mut s1;
-//     let s3 = &s1;
-//     println!("{}",s2);
-//     println!("{}",s3)
+
+//     let s3= &s1;
+//    print!("{}",s2);
+//     println!("{}",s3);
 // }
 
 
@@ -291,4 +292,22 @@ fn main(){
 //     print!("{:?}",a)
 // }
 
-
+// fn main(){
+//     let mut s1 = String::from("Hello");
+//     let s2 = &mut s1;
+//     // s2.push_str("World");
+//     print!("{}",s2);
+//     let s3= &s1;
+// //    let s4 = &s1;
+//     println!("{}",s3);
+// }
+fn main(){
+    let mut s1 = String::from("Hello");
+    let s2 = &mut s1;
+    s2.push_str("World");
+    let s3= &s1;
+    let s4=&s1;
+    // print!("{}",s2);
+   
+    println!("{}",s3);
+}
