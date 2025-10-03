@@ -164,6 +164,8 @@
 //     print!("{}",s4);
 // }
 
+
+// -----------------------------------------------------------------------------------------------------
 // fn main(){
 //     let my_string = String::from("this is the string");
 //     new_string(my_string.clone());
@@ -172,6 +174,14 @@
 // fn new_string(my_new_string:String){
 //     println!("{}",my_new_string)
 // }
+
+fn main(){
+    let s1 =String::from("this is the current sentence");
+    let s2 = &s1; 
+    println!("{}",s1);
+    println!("{}",s2);
+}
+
 
 // fn main(){
 //     let mut my_string = String::from("this is the string");
