@@ -316,3 +316,5 @@ fn main(){
     let s5 = &mut s1;
     s5.push_str("ye kya ho raha");
 }
+
+//nothing to push but still need to o
