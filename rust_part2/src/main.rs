@@ -10,12 +10,20 @@
 
 // Check if a number is even or odd 
 
+// fn main(){
+// let a = 23;
+//  if a%2==0 {
+//     print!("this is even");
+//  }
+//  else{
+//     println!("this is odd");
+//  }
+// }
+
+
+// print the number from 1 to 10 
 fn main(){
-let a = 23;
- if a%2==0 {
-    print!("this is even");
- }
- else{
-    println!("this is odd");
- }
+    for i in 1..11{
+        println!("{}",i);
+    }
 }
